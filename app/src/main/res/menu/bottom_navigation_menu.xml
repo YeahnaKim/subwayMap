@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation1"
+        android:icon="@drawable/main"
+        android:enabled="true"
+        android:title="홈화면"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/navigation2"
+        android:icon="@drawable/congestion"
+        android:enabled="true"
+        android:title="실시간 혼잡도"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/navigation3"
+        android:icon="@drawable/path"
+        android:enabled="true"
+        android:title="내 경로"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/navigation4"
+        android:icon="@drawable/page"
+        android:enabled="true"
+        android:title="내 정보"
+        app:showAsAction="always"/>
+</menu>
